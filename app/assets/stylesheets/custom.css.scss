@@ -3,6 +3,9 @@ $navbar-default-bg: black;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.container{
+  margin-top: 100px;
+}
 #logo {
   float: left;
   font-size: 1.7em;
@@ -17,6 +20,9 @@ $navbar-default-bg: black;
   text-decoration: none;
 }
 
+.messages {
+  margin: auto;
+}
 .center {
   text-align: center;
 }
