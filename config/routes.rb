@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :comments
+  resources :users
   root 'welcome#home'
   get 'about', to: 'welcome#about'
   get 'whoami', to: 'welcome#whoami'
